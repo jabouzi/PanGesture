@@ -95,6 +95,8 @@
 				TargetAttributes = {
 					05A786BA1BC05F36004F89FD = {
 						CreatedOnToolsVersion = 7.0.1;
+						DevelopmentTeam = 2Q3M5SLHJL;
+						LastSwiftMigration = 0830;
 					};
 				};
 			};
@@ -248,10 +250,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Q3M5SLHJL;
 				INFOPLIST_FILE = "pan gesture demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apoovmote.pan-gesture-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -259,10 +263,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Q3M5SLHJL;
 				INFOPLIST_FILE = "pan gesture demo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.apoovmote.pan-gesture-demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -285,6 +291,7 @@
 				05A786CF1BC05F36004F89FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

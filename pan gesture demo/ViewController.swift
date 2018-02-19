@@ -20,6 +20,21 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func panYellowView(_ sender: UIPanGestureRecognizer) {
+        
+        let translation = sender.translation(in: self.view)
+//        debugPrint("X: \(translation.x)")
+//        debugPrint("Y: \(translation.y)")
+        
+        let location = sender.location(in: self.view)
+        debugPrint("X: \(location.x)")
+        debugPrint("Y: \(location.y)")
+        
+        sender.view!.center = CGPoint(x: sender.view!.center.x + translation.x, y: sender.view!.center.y + translation.y)
+        
+        sender.setTranslation(CGPoint.zero, in: self.view)
+        
+    }
 
 }
 
